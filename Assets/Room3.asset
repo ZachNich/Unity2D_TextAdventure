@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde0e646ad674504d88a095fee2577d1, type: 3}
+  m_Name: Room3
+  m_EditorClassIdentifier: 
+  storyText: 'As your skin brushes the old lady''s, you are stricken with an immediate
+    urge to run. You struggle to pull away, but the deathly vice grip holds you still.
+    The symphony erupts into chaotic cacophony--the height of its unending crescendo.
+    The old lady''s eyes stare past you. Her mouth hangs agape..
+
+
+    1. Old ladies
+    like apologies. Just say sorry and sit back down.
+
+    2. Fuck this shit. Die
+    on the spot. Living isn''t worth it.'
+  nextStates:
+  - {fileID: 11400000, guid: 4785948c946a95e4f9de2cc721b8e65d, type: 2}
+  - {fileID: 11400000, guid: 4785948c946a95e4f9de2cc721b8e65d, type: 2}

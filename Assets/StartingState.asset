@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde0e646ad674504d88a095fee2577d1, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'The symphony rages with discord. A great storm pounds with wind and
+    rain against the old cathedral. You sit next to your date, the one who suggested
+    this, and she seems to enjoy it. You sit in the first row in the leftmost seats.
+    An old lady sitting to your right looks as if she died at the cresendo. Smells
+    like it, too. What to do..
+
+
+
+    1. Leave without your date
+
+    2. Leave with
+    your date
+
+    3. Keep watching the symphony'
+  nextStates:
+  - {fileID: 11400000, guid: 638047e84b6fc5d429cdfd3ea1c68dd0, type: 2}
+  - {fileID: 11400000, guid: 72f62eff212324b4994e2f1018740b93, type: 2}
+  - {fileID: 11400000}

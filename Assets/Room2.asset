@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde0e646ad674504d88a095fee2577d1, type: 3}
+  m_Name: Room2
+  m_EditorClassIdentifier: 
+  storyText: "You lean over and tell your date that you're thinking about skipping
+    out and making out. It was a good line, but a sudden thunderstrike prevents her
+    from hearing. You say it louder and with less wit and confidence this time. She
+    looks at you in confusion, shakes her head, and apparently decides to ignore
+    you to watch the symphony. \n\n1. Forget about it and sit through the symphony.\n2.
+    Whatever, man. Just leave without her."
+  nextStates:
+  - {fileID: 11400000, guid: 4785948c946a95e4f9de2cc721b8e65d, type: 2}
+  - {fileID: 11400000, guid: 638047e84b6fc5d429cdfd3ea1c68dd0, type: 2}
